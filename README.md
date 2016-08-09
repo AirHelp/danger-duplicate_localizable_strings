@@ -11,7 +11,7 @@ A [Danger](https://github.com/danger/danger) plugin that detect duplicate entrie
 Just call
 
 
-    check_localizable_duplicates
+    duplicate_localizable_strings.check_localizable_duplicates
 
 
 in your `Dangerfile` and you're all set 🎉
