@@ -9,7 +9,7 @@ module Danger
   #
   # @tags localization
   #
-  class DangerCheckLocalizableDuplicates < Plugin
+  class DangerDuplicateLocalizableStrings < Plugin
     #
     # Returns an array of all detected duplicate entries. An entry is
     # represented by a has with file path under 'file' key and the
