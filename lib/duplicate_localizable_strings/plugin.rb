@@ -52,7 +52,7 @@ module Danger
     # @return  [void]
     #
     def print_duplicate_entries(duplicate_entries)
-      message = "#### Found duplicate entries in Localizable.strings files \n"
+      message = "#### Found duplicate entries in Localizable.strings files \n\n"
 
       message << "| File | Key |\n"
       message << "| ---- | --- |\n"
