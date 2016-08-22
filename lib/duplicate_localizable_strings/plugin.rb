@@ -1,13 +1,13 @@
 module Danger
   #
   # Simple plugin that checks for duplicate entries in changed
-  # Localizable.strings files
+  # Localizable.strings files inside iOS and Mac projects.
   #
   # @example Checks whether there are duplicate entries in Localizable.strings
   #
   #          check_localizable_duplicates
   #
-  # @tags localization
+  # @tags localization, cocoa
   #
   class DangerDuplicateLocalizableStrings < Plugin
     #
@@ -48,6 +48,8 @@ module Danger
 
     #
     # Prints passed duplicated entries.
+    # @param    [Hash] duplicate_entries
+    #           A hash of `[file => keys]` entries to print.
     #
     # @return  [void]
     #
