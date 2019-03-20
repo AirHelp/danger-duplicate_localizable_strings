@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     danger-duplicate_localizable_strings (0.0.2)
-      danger (~> 5.5)
+      danger (~> 6.0)
 
 GEM
   remote: https://rubygems.org/
