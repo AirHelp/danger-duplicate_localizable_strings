@@ -18,17 +18,17 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'danger', '~> 6.0'
+  spec.add_runtime_dependency 'danger', '~> 6.2'
 
   # General ruby development
-  spec.add_development_dependency 'bundler', '~> 2.0'
-  spec.add_development_dependency 'rake', '~> 12.0'
+  spec.add_development_dependency 'bundler', '~> 2.1'
+  spec.add_development_dependency 'rake', '~> 13.0'
 
   # Testing support
   spec.add_development_dependency 'rspec', '~> 3.8'
 
   # Linting code and docs
-  spec.add_development_dependency "rubocop", "~> 0.68"
+  spec.add_development_dependency "rubocop", "~> 0.79"
   spec.add_development_dependency "yard", "~> 0.9"
 
   # Makes testing easy via `bundle exec guard`
