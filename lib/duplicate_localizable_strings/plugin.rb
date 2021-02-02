@@ -27,7 +27,7 @@ module Danger
         lines = File.readlines(file)
 
         # Grab just the keys, translations might be different
-        keys = lines.map { |e| e.split('=').first }
+        keys = lines.map { |e| e.encode('utf-8', 'binary', :invalid => :replace, :undef => :replace).split('=').first }
         # Filter newlines and comments
         keys = keys.select do |e|
           e != "\n" && !e.start_with?('/*') && !e.start_with?('//')
