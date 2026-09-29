@@ -1,0 +1,6 @@
+---
+name: danger-duplicate_localizable_strings
+kind: libraries
+domain: developer-tooling
+description: |
+  A **code-review plugin** for the Danger review bot that guards **localization quality** in iOS and Mac projects. When a pull request touches **translation string files**, it detects **duplicated translation keys** and comments on the review with a table of the offending files and keys.

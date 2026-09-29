@@ -1,0 +1,4 @@
+- **Localization quality gate** — reviews pull requests for duplicated translation keys in iOS/Mac string files.
+  - **Duplicate detection** — scans added and modified localization string files in a change set and lists each duplicated key with its file, ignoring comments and blank lines.
+  - **Review reporting** — posts a file/key table of found duplicates as a comment on the code review when any duplicates exist.
+  - **Programmatic access** — exposes the raw list of duplicate entries so review scripts can apply their own rules.
